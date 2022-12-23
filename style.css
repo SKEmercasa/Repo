@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 600px;
+    background: #C4C4C4;
+    margin-top: 100px;
+}
+
+.search {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.answer {
+    height: fit-content;
+}
+
+input {
+    height: 14px;
+    margin-top: 10%;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid rgba(119, 105, 248, 0.651);
+    transition: .3s border-color;
+    font-size: large;
+}
+
+input:hover {
+    border: 1px solid rgb(16, 9, 34);
+}
+.mainDiv {
+    display: flex;
+}
+
+.leftSide {
+    width: 80%;
+    list-style: none;
+    height: 50px;
+}
+
+.rightSide {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
